@@ -1,0 +1,202 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Template</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>702ce1c2-49fe-496f-a61e-36d25010bc5b</md:uuid>
+</metadata>
+
+
+
+  <content>
+    <section id="sec1">
+      <title>The name of the section</title>
+
+      <para id="par1"> The regular paragraph content should be placed here. This paragraph contains also the example of Connextion-based link to <link document="m11106" strength="2">course introductory page</link> as well as the example of the Connextions-external link to <link url="http://www.bio.davidson.edu/courses/genomics/chip/chip.html">Microarray presentation page</link>. 
+      </para>
+
+      <figure id="fig1">
+	<title>The name of the figure</title>
+	<media id="idm2968784" alt=""><image src="../../media/fig1.jpg" mime-type="image/jpeg"/></media>
+	<caption>The caption of the figure should be here</caption>
+      </figure>
+
+      <list id="list1" list-type="bulleted">
+	<title>The name of the list</title>
+	<item>item 1</item>
+	<item>item 2</item>
+	<item>item 3</item>
+      </list>
+
+
+      <code display="block" id="idp887664">
+        
+	//the programming code
+	for (i=0;i&lt;100;i++){
+	  for (j=i;j&lt;100;j++){
+	    S[i,j]+=i*j;
+	  }
+	}
+        
+      </code>
+
+      <definition id="def1">
+	<term>defined term</term>
+	<meaning id="idm8921360">here is the meaning of the defined term</meaning>
+      </definition>
+      <example id="example1">
+	<para id="par2">The example illustrating the definition. Instead of paragraph a figure can be used as an example
+	</para>
+      </example>
+
+      <equation id="eq1">
+	<title>The integral of some function</title>
+
+	<m:math>
+	  <m:semantics>
+	    <m:mrow>
+	      <m:msubsup>
+		<m:mo>∫</m:mo>
+		<m:mrow>
+		  <m:mo>-</m:mo>
+		  <m:mn>1</m:mn>
+		</m:mrow>
+		<m:mn>1</m:mn>
+	      </m:msubsup>
+	      <m:mrow>
+		<m:mroot>
+		  <m:mfrac>
+		    <m:mrow>
+		      <m:mi>x</m:mi>
+		      <m:mo>+</m:mo>
+		      <m:mrow>
+			<m:mi>sin</m:mi>
+			<m:mo>⁡</m:mo>
+			<m:mo>(</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>)</m:mo>
+		      </m:mrow>
+		    </m:mrow>
+		    <m:mrow>
+		      <m:msup>
+			<m:mi>a</m:mi>
+			<m:mn>2</m:mn>
+		      </m:msup>
+		      <m:mo>+</m:mo>
+		      <m:mrow>
+			<m:mi>cos</m:mi>
+			<m:mo>⁡</m:mo>
+			<m:mo>(</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>)</m:mo>
+		      </m:mrow>
+		    </m:mrow>
+		  </m:mfrac>
+		  <m:mn>3</m:mn>
+		</m:mroot>
+		<m:mo>⁢</m:mo>
+		<m:mrow>
+		  <m:mo>ⅆ</m:mo>
+		  <m:mi>x</m:mi>
+		</m:mrow>
+	      </m:mrow>
+	    </m:mrow>
+	    <m:annotation-xml encoding="MathML-Content">
+	      <m:apply>
+		<m:int/>
+		<m:bvar>
+		  <m:ci>x</m:ci>
+		</m:bvar>
+		<m:lowlimit>
+		  <m:cn type="integer">-1</m:cn>
+		</m:lowlimit>
+		<m:uplimit>
+		  <m:cn type="integer">1</m:cn>
+		</m:uplimit>
+		<m:apply>
+		  <m:power/>
+		  <m:apply>
+		    <m:times/>
+		    <m:apply>
+		      <m:plus/>
+		      <m:ci>x</m:ci>
+		      <m:apply>
+			<m:sin/>
+			<m:ci>x</m:ci>
+		      </m:apply>
+		    </m:apply>
+		    <m:apply>
+		      <m:power/>
+		      <m:apply>
+			<m:plus/>
+			<m:apply>
+			  <m:power/>
+			  <m:ci>a</m:ci>
+			  <m:cn type="integer">2</m:cn>
+			</m:apply>
+			<m:apply>
+			  <m:cos/>
+			  <m:ci>x</m:ci>
+			</m:apply>
+		      </m:apply>
+		      <m:cn type="integer">-1</m:cn>
+		    </m:apply>
+		  </m:apply>
+		  <m:cn type="rational">1<m:sep/>3</m:cn>
+		</m:apply>
+	      </m:apply>
+	    </m:annotation-xml>
+	  </m:semantics>
+	</m:math>
+
+
+      </equation>
+
+      <exercise id="exc1">
+	<problem id="idm8466576">
+          <para id="par3">This is a question to be answered by a student
+          </para>
+	</problem>
+	<solution id="idm183008">
+          <para id="par4">And a solution to the question
+          </para>
+	</solution>
+      </exercise>
+      <rule id="rule1" type="law">
+	<statement id="idm9402224">
+	  <para id="par5">Here is the content of the presented law. Can be also expressed by equation
+	  </para>
+	</statement>
+	<proof id="idp4102224">
+	  <para id="par6">The proof of the law. The proof can be also more sophisticated structure than just the paragraph.
+	  </para>
+	</proof>
+      </rule>
+      <table id="fig2" summary=""><title>The name of the table</title>
+	    <tgroup cols="3">
+	      <thead>
+		<row>
+		  <entry>header 1</entry>
+		  <entry>header 2</entry>
+		  <entry>header 3</entry>
+		</row>
+	      </thead>
+	      <tbody>
+		<row>
+		  <entry>value 11</entry>
+		  <entry>value 12</entry>
+		  <entry>value 13</entry>	    
+		</row>
+		<row>
+		  <entry>value 21</entry>
+		  <entry>value 22</entry>
+		  <entry>value 23</entry>
+		</row>
+	      </tbody>
+	    </tgroup>
+	  <caption>The table can have not only the general title above, but also the capture, which is just here
+	</caption></table>
+    </section>
+
+
+
+  </content>
+
+</document>

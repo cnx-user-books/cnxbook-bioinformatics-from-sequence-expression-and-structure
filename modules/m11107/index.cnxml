@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gene expression - blotting</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9cb6a92c-4dcb-4b83-9dc4-52cbf5b22ca6</md:uuid>
+</metadata>
+
+
+
+  <content>
+    <para id="delete_me">
+       <!-- Insert module text here -->
+    </para> 
+
+    <figure id="cell3D">
+       <title>Southern blott</title>
+       <media id="idp3171984" alt=""><image src="../../media/southern.gif" mime-type="image/gif"/></media>
+       <caption>
+         Basic steps included in a Southern Blot. Courtesy of Mama Ji Molecular Kitchen web page
+       </caption>
+    </figure>
+
+    <para id="table_descr">Below there is an example of the table in CNXML</para>
+    <table id="tab1" summary="">
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <!-- one of (entrytbl entry) -->
+	    <entry>head 1</entry>
+	    <entry>head 2</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <!-- one of (entrytbl entry) -->
+	    <entry>value1 1</entry>
+	    <entry>value1 2</entry>
+	  </row>
+	  <row>
+	    <!-- one of (entrytbl entry) -->
+	    <entry>value21 1</entry>
+	    <entry>value2 2</entry>
+
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+    <exercise id="ex1">
+      <problem id="idm5512432">
+	<!-- one of (rule table figure codeblock list equation para definition) -->
+	<para id="q1">This is a question</para>
+      </problem>
+      <solution id="idm5407552">
+	<!-- one of (table figure codeblock list equation para) -->
+	<para id="a1">Here is the answer</para>
+      </solution>
+    </exercise>
+  
+  </content>
+  
+</document>

@@ -1,0 +1,29 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>DNA Microsatillites Evolution</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>66d010d2-ec73-4eff-a9fd-53b9fae9afa6</md:uuid>
+</metadata>
+
+
+
+  <content>
+    <para id="delete_me">
+       <!-- Insert module text here -->
+    </para>  
+    <figure id="img008">
+      <title>Simulated Var vs Variance</title>
+      <media id="idm9913920" alt=""><image src="../../media/img008.gif" mime-type="image/gif"/></media>
+      <caption>
+Single Step Model
+      </caption>
+    </figure>
+    <figure id="img009">
+      <title>Microsatellites Loci</title>
+      <media id="idm2788272" alt=""><image src="../../media/img009.gif" mime-type="image/gif"/></media>
+      <caption>
+Number of Microsatellite Loci per chromosome
+      </caption>
+    </figure>
+ 
+  </content>
+  
+</document>
